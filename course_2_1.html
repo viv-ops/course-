@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+    <body>
+      <!--Задание 1: Создание простой формы-->
+      <!--Добавьте форму (`form`)-->
+      <form  method="post">
+        <fieldset>
+        <legent>Homework</legent><br><br>
+        <!--Поле для ввода имени с использованием тега `<input type="text">-->
+        <label for="name">Text:</label>
+        <input type="text" id="text" name="text" required><br><br>
+        <!-- Поле для ввода электронной почты-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!--Поле для ввода пароля -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <!-- Текстовое поле для комментариев-->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+
+        <!--Задание 2: Поля выбора и кнопки-->
+        <!--Добавьте форму (`select`)-->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+           <!--Добавьте несколько опций (`option`)-->
+           <option value="">Select your country</option>
+           <option value="us">United States</option>
+           <option value="ru">Russia</option>
+           <option value="uk">United Kingdom</option>
+           <option value="au">Australia</option>
+       </select><br><br>
+       <!--Кнопку отправки формы (`submit`)-->
+       <button type="submit">Submit</button><br><br>
+       <!--Кнопку сброса формы (`reset`)-->
+       <button type="reset">Reset</button>
+       
+       </fieldset>
+      </form>
+      
+
+    </body>
+  </head>
+</html>
