@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектор в CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Наименее приоритетный по тегу */
+      p{
+        color:green;
+      }
+      /*Средний приоритет по классу*/
+      .text{
+        color:red;
+      }
+      /*Наивысший приоритет по id*/
+      #my-id{
+        color:blue;
+      }
+    </style>
+    <body>
+      <!--Задание 1: Работа с базовыми селекторами-->
+      <!--Все абзацы должны иметь синий цвет текста-->
+      <p>Hello!</p>
+      <p >Welcome</p>
+    
+      <!--"Элементы списка с определённым классом должны быть жирными-->
+      <ul class="words">
+        <li>Name</li>
+        <li>Age</li>
+        <li>Country</li>
+      </ul>
+
+      <!--Заголовок с определённым ID должен быть красного цвета-->
+      <h1 id="title">Words</h1>
+      <h2 id="word">Words</h2>
+
+      <!--Задание 2: Приоритет селекторов-->
+      <p class="text" id="my-id">Тег с классом и id</p>
+      <p class="text">Тег с классом</p>
+      <p>Только тег</p>
+      
+    </body>
+  </head>

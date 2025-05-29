@@ -1,0 +1,11 @@
+p {
+  color: blue;
+}
+
+.words {
+    font-weight: bold;
+}
+
+#title {
+  color: red;
+}
