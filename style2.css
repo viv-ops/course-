@@ -1,0 +1,70 @@
+/*2. Добавьте стили для следующих текстовых свойств:
+
+   - `color` — измените цвет текста для заголовков.
+
+   - `font-size` — задайте разный размер шрифта для абзацев.
+
+   - `text-align` — выровняйте текст по центру для одного из заголовков.
+
+   - `font-weight` — сделайте один из абзацев жирным.*/
+h4 {
+  color: pink;
+}
+
+.size1 {
+  font-size: 19px;
+}
+
+.size2 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*2. Используйте следующие свойства:
+
+   - `background-color` — задайте фоновый цвет для контейнера.
+
+   - `background-image` — вставьте фоновое изображениe.*/
+
+.container {
+  color:rgb(251, 132, 152);
+  text-align: center;
+  background-color:rgb(255, 188, 219);
+  background-image: url('photo.jpg');
+  weight: 1000px;
+  height: 1000px;
+  background-size: contain;
+  font-size: 23px;
+  overflow: auto;
+}
+
+/*2. Примените следующие свойства:
+
+   - `padding` — добавьте внутренние отступы.
+
+   - `margin` — добавьте внешние отступы между блоками.
+
+   - `border` — создайте рамку для блоков.*/
+
+div {
+  padding: 20px;
+  margin: 10px;
+  border: 15px solid pink;
+  border-radius: 10px;
+}
+
+/*2. Примените следующие свойства:
+
+   - `width` и `height` — задайте ширину и высоту для элементов.
+
+   - `overflow` — установите управление содержимым, если оно выходит за границы блока (например, `hidden`, `scroll`).*/
+
+.size {
+  font-size: 20px;
+}
+
+
