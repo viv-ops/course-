@@ -1,0 +1,43 @@
+/* - Используйте `px` для задания точных размеров элементов.*/
+.px {
+  font-size: 20px;
+}
+
+.px2 {
+  font-size: 30px;
+}
+
+/* - Примените `em` для задания относительных размеров шрифта внутри контейнера.*/
+.em {
+  border: 15px solid pink;
+  border-radius: 20px;;
+  font-size: 2em;
+  background-image: url('photo.jpg');
+  weight: 1000px;
+  height: 1000px;
+  background-size: contain;
+  /* - Задайте цвет текста и фона с помощью шестнадцатеричной системы (`hex`*/
+  color:#f9e1e1;
+  background-color: #faebdf;
+  text-align: center;
+  padding: 20px;
+}
+
+/*  - Примените `%` для задания ширины контейнеров относительно их родителя.*/
+.em2 {
+  font-size: 50%;
+  /*  - Используйте модель `rgb` для задания цветов фона и текста.*/
+  color: rgb(54, 54, 54);
+  background-color: rgb(234, 229, 101);
+}
+
+/* - Используйте `rem` для задания размеров относительно корневого элемента (`html`).*/
+.rem {
+  font-size: 5rem;
+}
+
+.rem2 {
+  font-size: 8rem;
+  /*  - Примените модель `rgba` для добавления прозрачности к цветам.*/
+  color: rgba(245, 179, 58, 0.4);
+}
