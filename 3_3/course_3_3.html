@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Линейные и блочные элементы</title>
+    <link rel="stylesheet">
+    <style>
+      /* Стилизуйте контейнер как блочный элемент и добавьте отступы.
+         Преобразуйте все вложенные элементы в блочные и выровняйте их по вертикали.*/
+
+      .container {
+        display:block;
+        padding:20%;
+        
+      }
+
+      /*Проверьте их поведение на странице: блочные элементы должны занимать всю ширину строки, а линейные — выстраиваться в одну строку.*/
+
+      .block {
+        display: block;
+        background-color: lightcoral;
+      }
+
+      .inline {
+        display: inline;
+        background-color: lightsalmon;
+      }
+
+      .photo {
+        display: block;
+        width: 300px;
+        height: 200px;
+      }
+
+      .block2 {
+        display: inline;
+        background-color: lightgrey;
+      }
+
+
+    </style>
+    <body>
+      <!--Блочные элементы-->
+     <h1 class="block">Hello!</h1>
+     <p class="block2">How are you?</p>
+      <div class="block">Not bad</div>
+    
+     <!--Линейные элементы-->
+     <img src="./finger.jpg" alt="Локальное изображение"  width="300" height="200"  class="photo">
+     <strong class="inline">TEXXXTTT</strong>
+
+    <div class="container">
+      <p>Абзац</p>
+      <img  src="./photo.jpg" alt="Локальное изображение"  width="300" height="200"  class="photo2">
+      <br><a href = "Background Macbook.jpg" target = "_blank">Изображение</a>
+    </div>
+     
+    </body>
+  </head>
